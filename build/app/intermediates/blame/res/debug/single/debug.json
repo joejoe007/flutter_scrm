@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/yinleizhang/Desktop/flutter_scrm/build/app/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/yinleizhang/Desktop/flutter_scrm/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yinleizhang/Desktop/flutter_scrm/build/app/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/yinleizhang/Desktop/flutter_scrm/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yinleizhang/Desktop/flutter_scrm/build/app/intermediates/res/merged/debug/mipmap-xhdpi_logo_b.png.flat",
+        "source": "/Users/yinleizhang/Desktop/flutter_scrm/android/app/src/main/res/mipmap-xhdpi/logo_b.png"
+    },
+    {
+        "merged": "/Users/yinleizhang/Desktop/flutter_scrm/build/app/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/yinleizhang/Desktop/flutter_scrm/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yinleizhang/Desktop/flutter_scrm/build/app/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/yinleizhang/Desktop/flutter_scrm/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yinleizhang/Desktop/flutter_scrm/build/app/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/yinleizhang/Desktop/flutter_scrm/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yinleizhang/Desktop/flutter_scrm/build/app/intermediates/res/merged/debug/drawable_launch_background.xml.flat",
+        "source": "/Users/yinleizhang/Desktop/flutter_scrm/android/app/src/main/res/drawable/launch_background.xml"
+    }
+]

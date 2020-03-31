@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: :ExCardSDK:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/858adebed1604a92f1bec9141cf518fd/jetified-ExCardSDK/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/858adebed1604a92f1bec9141cf518fd/jetified-ExCardSDK/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

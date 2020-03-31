@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_aars__:./../../../../.pub-cache/hosted/pub.flutter-io.cn/tobias-1.6.0+1/android/libs/alipaySdk-15.7.3-20200217092949-noUtdid.aar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3e4744e317ec2d3d7506dd1c9671e8fd/jetified-alipaySdk-15.7.3-20200217092949-noUtdid/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3e4744e317ec2d3d7506dd1c9671e8fd/jetified-alipaySdk-15.7.3-20200217092949-noUtdid/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

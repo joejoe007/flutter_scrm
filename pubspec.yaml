@@ -1,0 +1,197 @@
+name: flutter_project1
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.1+5
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  # 添加依赖
+  flutter_localizations:
+      sdk: flutter
+  flutter_screenutil: ^0.5.3  #屏幕适配
+  fluttertoast: ^3.1.3  #吐司
+  flutter_swiper: ^1.1.6  #轮播图效果
+  dio: ^3.0.2 #网络请求框架
+  cupertino_icons: ^0.1.2
+  flutter_easyrefresh: ^2.0.8 #下拉刷新
+  webview_flutter: ^0.3.15+1  #WebView
+  # https://github.com/flutterchina/cookie_jar
+  cookie_jar: ^1.0.0
+  dio_cookie_manager: ^1.0.0  #latest version
+  shared_preferences: ^0.5.3+4 #存储数据
+  url_launcher: ^5.1.4  #打开浏览器
+  image_picker: ^0.6.1+8  #选择图片
+  image_cropper: ^1.1.0    #图片剪切
+  logger: ^0.7.0 #打log
+  sembast: ^2.0.1 #数据库
+  path_provider: ^1.2.0 #文件
+  provider: ^3.0.0 #状态更改
+  json_annotation: ^2.0.0
+  flutter_section_table_view: ^1.0.5
+  flutter_spinkit: ^4.0.0
+  flutter_datetime_picker: ^1.2.8 #时间选择器
+  quiver: ^2.0.5 #字符处理
+  common_utils: ^1.1.1 #常用工具包
+  flutter_picker: ^1.1.0
+  gzx_dropdown_menu : ^1.0.1 # 下拉选择
+  permission_handler: ^3.2.2 #权限申请
+  package_info: ^0.3.2+1 # 版本信息
+#  flutter_alipay: ^0.1.2
+  tobias: ^1.2.2
+  fluwx: ^1.2.1+1
+  camera: ^0.5.7+4 #相机
+  lpinyin: ^1.0.7 # 拼音
+  event_bus: ^1.1.0 # 监听
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.0.0
+  json_serializable: ^2.0.0
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/ic_login_logo.png
+    - assets/images/ic_login_weichat.png
+    - assets/images/gray-home.png
+    - assets/images/select-home.png
+    - assets/images/resource-noraml.png
+    - assets/images/resource-select.png
+    - assets/images/work-normal.png
+    - assets/images/work-select.png
+    - assets/images/mine-normal.png
+    - assets/images/mine-select.png
+    - assets/images/img-placeholder.png
+    - assets/images/glodencard-back.png
+    - assets/images/graycard-back.png
+    - assets/images/black-delete.png
+    - assets/images/black-download.png
+    - assets/images/black-edit.png
+    - assets/images/blackup.png
+    - assets/images/settingback.png
+    - assets/images/setting-employees.png
+    - assets/images/setting-memcare.png
+    - assets/images/setting-project.png
+    - assets/images/setting-role.png
+    - assets/images/memcardset.png
+    - assets/images/alipay.png
+    - assets/images/unionpay.png
+    - assets/images/weixin.png
+    - assets/images/yellow-cash.png
+    - assets/images/red_resultsuccess.png
+    - assets/images/nodata-memcard.png
+    - assets/images/memplaceholder.png
+    - assets/images/nodata-member.png
+    - assets/images/lightgray-scan.png
+    - assets/images/light-delete.png
+
+
+    - assets/images/icon_home_billing.png
+    - assets/images/icon_home_open_card.png
+    - assets/images/home_order.png
+    - assets/images/left_money_search.png
+    - assets/images/home_customer.png
+    - assets/images/home_store_out.png
+    - assets/images/home_account_receiver.png
+    - assets/images/home_business_sum.png
+    - assets/images/home_setting.png
+    - assets/images/home_care.png
+    - assets/images/home_scan_car_num.png
+    - assets/images/icon_account_off.png
+    - assets/images/billing_search.png
+    - assets/images/billing_scan.png
+    - assets/images/billing_edit.png
+    - assets/images/finance_total.png
+    - assets/images/finance_real.png
+    - assets/images/finance_card.png
+    - assets/images/bottom-center.png
+    - assets/images/orangeapproval.png
+    - assets/images/redwaitdo.png
+    - assets/images/greencommission.png
+    - assets/images/purpletotal.png
+    - assets/images/bluemap.png
+    - assets/images/bluesetting.png
+    - assets/images/purpleaddress.png
+    - assets/images/orangeownership.png
+    - assets/images/redinviate.png
+    - assets/images/greenopenticket.png
+    - assets/images/yellowticket.png
+    - assets/images/bluewallet.png
+    - assets/images/redsale.png
+    - assets/images/redmes.png
+    - assets/images/redgetgoods.png
+    - assets/images/redwaitsend.png
+    - assets/images/redwaitpay.png
+    - assets/images/purpledownload.png
+    - assets/images/orangecollection.png
+    - assets/images/homerole.png
+    - assets/images/homesearch.png
+    - assets/images/homemarketing.png
+    - assets/images/homemem.png
+    - assets/images/homemarketingdata.png
+    - assets/images/homeinventory.png
+    - assets/images/homememinfo.png
+    - assets/images/homecancelcenter.png
+    - assets/images/fristbanner.png
+    - assets/images/secondbanner.png
+    - assets/images/thridbanner.png
+    - assets/images/forthbanner.png
+
+
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
